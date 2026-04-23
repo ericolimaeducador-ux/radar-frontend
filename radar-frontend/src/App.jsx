@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { auth, dashboardAPI } from './lib/api'
 import { ToastProvider } from './components/Toast'
@@ -53,13 +53,13 @@ function PublicRoute() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ToastProvider>
         <Routes>
           <Route path="/" element={<PublicRoute />} />
           <Route path="/*" element={<ProtectedLayout />} />
         </Routes>
       </ToastProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

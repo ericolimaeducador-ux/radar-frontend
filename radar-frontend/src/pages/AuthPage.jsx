@@ -115,9 +115,7 @@ export default function AuthPage() {
           </button>
         </div>
 
-        <div style={{ marginTop: 28, padding: '12px 16px', background: 'var(--bg-2)', borderRadius: 'var(--radius)', fontSize: '0.75rem', color: 'var(--text-3)', lineHeight: 1.5 }}>
-          <strong style={{ color: 'var(--text-2)' }}>Admin padrão:</strong> admin@radar.app / admin123
-        </div>
+
       </div>
     </div>
   )

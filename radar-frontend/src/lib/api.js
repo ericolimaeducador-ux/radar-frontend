@@ -31,7 +31,7 @@ export async function api(action, data = {}) {
     const json = await res.json()
     if (!json.success && json.error?.includes('Sessão inválida')) {
       auth.clearSession()
-      window.location.href = '/'
+      window.location.hash = '/'
     }
     return json
   } catch (err) {

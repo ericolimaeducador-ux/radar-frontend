@@ -202,7 +202,7 @@ input, textarea, select, button {
 }
 
 .user-info { flex: 1; min-width: 0; }
-.user-name { font-size: 0.82rem; font-weight: 500; color: var(--text); truncate; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.user-name { font-size: 0.82rem; font-weight: 500; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .user-role { font-size: 0.7rem; color: var(--text-3); text-transform: capitalize; }
 
 /* ─── PAGE HEADER ────────────────────────────────────────── */

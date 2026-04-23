@@ -109,18 +109,10 @@ export default function AdminPage() {
 
             <div className="card" style={{ marginTop: 16 }}>
               <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.05rem', color: 'var(--text)', marginBottom: 8 }}>
-                Conta admin padrão
+                Segurança
               </div>
-              <div style={{ fontSize: '0.82rem', color: 'var(--text-3)', marginBottom: 12 }}>
-                Lembre de alterar a senha após o primeiro acesso.
-              </div>
-              <div style={{ display: 'flex', gap: 12 }}>
-                <div style={{ background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '8px 14px', fontSize: '0.82rem', fontFamily: 'monospace', color: 'var(--teal)' }}>
-                  admin@radar.app
-                </div>
-                <div style={{ background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '8px 14px', fontSize: '0.82rem', fontFamily: 'monospace', color: 'var(--red)' }}>
-                  admin123
-                </div>
+              <div style={{ fontSize: '0.82rem', color: 'var(--text-3)' }}>
+                Gerencie as credenciais de acesso diretamente no Google Apps Script (propriedades do script).
               </div>
             </div>
           </>
