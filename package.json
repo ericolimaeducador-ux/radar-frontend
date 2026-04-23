@@ -1,0 +1,10 @@
+{
+  "name": "radar-frontend-root",
+  "private": true,
+  "workspaces": ["radar-frontend"],
+  "scripts": {
+    "dev": "cd radar-frontend && npm run dev",
+    "build": "cd radar-frontend && npm run build",
+    "preview": "cd radar-frontend && npm run preview"
+  }
+}
